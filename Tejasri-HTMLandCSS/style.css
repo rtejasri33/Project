@@ -1,0 +1,77 @@
+body{
+    background-image: url('bgimage.jpg');
+    background-size: 70%;
+}
+.button{
+    width: 100%;
+    padding:px;
+}
+.login-box{
+    background-color: white;
+    width: 300px;
+    height: 470px;
+    border: 1px black solid;
+    outline: none;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;  
+}
+.login-box p{
+    color: darkgray;
+    padding: 10px;
+    padding-top: 0px;
+}
+.main-heading{
+    width:93.5%;
+    float: left;
+    text-align: center;
+    background-color: rgb(17, 193, 199);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+#logo{
+    float: left;
+}
+#exit{
+    float: right;
+}
+.sign-in-form input{
+    margin:5px 10px;
+    padding: 2px 4px;
+    width: 80%;
+    height:20px;
+    font-size: 14px;
+}
+#navbar ul{
+    margin: 0px;
+    list-style: none;
+    padding:10px;
+}
+#navbar li{
+    display: inline;
+}
+#navbar li:last-child{
+    float: right;
+}
+#navbar a{
+    text-decoration: none;
+    color: rgb(99, 92, 92);
+    font-size: 14px;
+}
+.sign-in-form input[type="submit"]{
+    width: 94%;
+    color:white;
+    height:30px;
+    margin-bottom: 0px;
+    border: 0px;
+    border-radius: 5px;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
